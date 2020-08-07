@@ -1,0 +1,14 @@
+{
+    "name": "MyUtils",
+    "description" : "My Chrome Utils",
+    "version": "1.0",
+    "manifest_version": 2,
+	"background": {
+		"persistent": false,
+		"scripts": ["background.js"]
+	},
+	"permissions": [
+        "tabs",
+		"contextMenus"
+    ]
+}
